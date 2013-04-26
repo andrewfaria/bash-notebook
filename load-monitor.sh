@@ -6,6 +6,10 @@
 
 # config
 max_load="2"
+to_address = ""
+from_address = ""
+subject = ""
+message = ""
 
 # get current load
 load=`uptime | awk '{print $10}' | tr -d ','`
