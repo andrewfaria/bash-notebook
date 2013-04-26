@@ -1,9 +1,13 @@
 #!/bin/bash
 
-#config
+# Dependencies
+# sendmail
+# bc
+
+# config
 max_load="2"
 
-#get current load
+# get current load
 load=`uptime | awk '{print $10}' | tr -d ','`
 
 
